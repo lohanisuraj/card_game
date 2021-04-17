@@ -43,14 +43,12 @@ class ViewController: UIViewController {
         leftImageView.image = UIImage(named: leftCard)
         rightImageView.image = UIImage(named: rightCard)
         
-        
-        
         if(leftNumber > rightNumber){
             player1 += 1
         }else{
             cpu += 1
         }
-        
+        //this is the text 
         leftScoreLabel.text = String(player1)
         rightScoreLabel.text = String(cpu)
     }
